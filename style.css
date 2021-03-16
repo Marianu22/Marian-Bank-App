@@ -369,3 +369,23 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
+@media all and (max-width: 800px) {
+  .login_btn {
+    font-size: 1.1rem;
+  }
+  nav {
+    display: inline-block;
+    text-align: center;
+  }
+  html {
+    font-size: 30.5%;
+  }
+
+  body {
+    margin-left: 6.5vh;
+  }
+  .modal {
+    transform: translate(-80%, -95%);
+  }
+}
